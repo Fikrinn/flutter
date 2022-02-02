@@ -1,0 +1,20 @@
+Container(
+          // color: Colors.redAccent[700],
+          width: 300,
+          height: 200,
+          padding: EdgeInsets.all(20),
+          margin: EdgeInsets.all(140),
+          decoration: BoxDecoration(
+              color: Colors.redAccent[700],
+              borderRadius: BorderRadius.circular(20),
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.black,
+                  spreadRadius: 5,
+                  blurRadius: 5,
+                )
+              ]),
+          child: Text(
+            'Ini Halaman Aplikasi Saya!',
+            style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+          ),
